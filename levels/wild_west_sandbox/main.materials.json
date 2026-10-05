@@ -1,0 +1,80 @@
+{
+  "ground": {
+    "name": "ground",
+    "class": "Material",
+    "mapTo": "ground",
+    "Stages": [
+      {
+        "baseColorFactor": [0.35, 0.28, 0.18, 1],
+        "roughnessFactor": [0.9],
+        "metallicFactor": [0]
+      }
+    ],
+    "version": 1.5
+  },
+  "road": {
+    "name": "road",
+    "class": "Material",
+    "mapTo": "road",
+    "Stages": [
+      {
+        "baseColorFactor": [0.18, 0.13, 0.08, 1],
+        "roughnessFactor": [0.9],
+        "metallicFactor": [0]
+      }
+    ],
+    "version": 1.5
+  },
+  "water": {
+    "name": "water",
+    "class": "Material",
+    "mapTo": "water",
+    "Stages": [
+      {
+        "baseColorFactor": [0.08, 0.18, 0.25, 1],
+        "roughnessFactor": [0.9],
+        "metallicFactor": [0]
+      }
+    ],
+    "version": 1.5
+  },
+  "wood": {
+    "name": "wood",
+    "class": "Material",
+    "mapTo": "wood",
+    "Stages": [
+      {
+        "baseColorFactor": [0.32, 0.2, 0.1, 1],
+        "roughnessFactor": [0.9],
+        "metallicFactor": [0]
+      }
+    ],
+    "version": 1.5
+  },
+  "rock": {
+    "name": "rock",
+    "class": "Material",
+    "mapTo": "rock",
+    "Stages": [
+      {
+        "baseColorFactor": [0.25, 0.23, 0.2, 1],
+        "roughnessFactor": [0.9],
+        "metallicFactor": [0]
+      }
+    ],
+    "version": 1.5
+  },
+  "tree": {
+    "name": "tree",
+    "class": "Material",
+    "mapTo": "tree",
+    "Stages": [
+      {
+        "baseColorFactor": [0.12, 0.22, 0.1, 1],
+        "roughnessFactor": [0.9],
+        "metallicFactor": [0]
+      }
+    ],
+    "version": 1.5
+  }
+}
