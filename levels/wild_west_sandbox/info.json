@@ -1,0 +1,39 @@
+{
+  "title": "Wild West Sandbox Prototype",
+  "description": "A solo BeamNG.drive sandbox prototype set in an original western frontier environment.",
+  "authors": "Tanner / ChatGPT prototype",
+  "defaultSpawnPointName": "spawns_default",
+  "defaultDate": {
+    "year": 2026,
+    "month": 6,
+    "day": 20
+  },
+  "country": "levels.common.country.usa",
+  "region": "northAmerica",
+  "biome": "western_frontier",
+  "size": [
+    1800,
+    1400
+  ],
+  "previews": [
+    "preview.png"
+  ],
+  "spawnPoints": [
+    {
+      "translationId": "levels.wild_west_sandbox.spawnpoints.default",
+      "description": "Frontier town starting point",
+      "objectname": "spawns_default",
+      "preview": "preview.png"
+    }
+  ],
+  "roadRules": {
+    "rightHandDrive": false,
+    "turnOnRed": true
+  },
+  "localUnits": {
+    "gasoline": "gallonUS",
+    "diesel": "gallonUS"
+  },
+  "supportsTraffic": false,
+  "supportsTimeOfDay": true
+}
